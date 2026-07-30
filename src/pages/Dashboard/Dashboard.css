@@ -1,4 +1,3 @@
-
 .dashboard{
     display:flex;
     min-height:100vh;
@@ -6,23 +5,46 @@
 }
 
 .dashboard-content{
-
     flex:1;
-    padding:30px;
     margin-left:260px;
-}
-.cards-row{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:20px;
-    margin-top:30px;
+    padding:30px;
+    transition:.3s;
 }
 
-@media(max-width:1000px){
+.dashboard-content>*{
+    margin-bottom:30px;
+}
 
-.cards-row{
+/* Tablet */
 
-grid-template-columns:1fr;
+@media(max-width:992px){
+
+.dashboard-content{
+
+margin-left:220px;
+padding:20px;
+
+}
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.dashboard{
+
+flex-direction:column;
+
+}
+
+.dashboard-content{
+
+margin-left:0;
+
+padding:15px;
+
+margin-top:80px;
 
 }
 

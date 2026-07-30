@@ -5,6 +5,7 @@ import Login from "../pages/Login/Login";
 import Register from "../pages/Register/Register";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import ApplyLoan from "../pages/ApplyLoan/ApplyLoan";
+import UploadDocuments from "../pages/UploadDocuments/UploadDocuments";
 
 function AppRoutes() {
   return (
@@ -15,6 +16,10 @@ function AppRoutes() {
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/apply-loan" element={<ApplyLoan />} />
+        <Route
+          path="/upload-documents"
+          element={<UploadDocuments />}
+        />
       </Routes>
     </BrowserRouter>
   );

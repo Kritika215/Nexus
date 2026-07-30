@@ -1,40 +1,68 @@
 import "./Topbar.css";
 
-function Topbar(){
+import { FaBell, FaSearch } from "react-icons/fa";
 
-return(
+function Topbar() {
+  return (
+    <header className="topbar">
 
-<div className="topbar">
+      <div className="topbar-left">
 
-<div>
+        <div>
 
-<h2>Dashboard</h2>
+          <h2>Dashboard</h2>
 
-<p>Welcome back 👋</p>
+          <p>
+            Good Morning, Kritika 👋
+          </p>
 
-</div>
+        </div>
 
-<div className="profile">
+      </div>
 
-<img
-src="https://i.pravatar.cc/100"
-alt=""
-/>
+      <div className="topbar-right">
 
-<div>
+        <div className="search-box">
 
-<h4>Kritika</h4>
+          <FaSearch />
 
-<span>Beneficiary</span>
+          <input
+            type="text"
+            placeholder="Search..."
+          />
 
-</div>
+        </div>
 
-</div>
+        <div className="notification">
 
-</div>
+          <FaBell />
 
-)
+          <span className="notification-dot"></span>
 
+        </div>
+
+        <div className="profile">
+
+          <div className="profile-avatar">
+
+            KG
+
+          </div>
+
+          <div>
+
+            <h4>Kritika Goyal</h4>
+
+            <span>Beneficiary</span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+  );
 }
 
 export default Topbar;

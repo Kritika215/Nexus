@@ -1,0 +1,31 @@
+.quick-actions{
+    background:white;
+    margin-top:30px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.06);
+}
+
+.quick-actions h2{
+    color:#6F4E37;
+    margin-bottom:20px;
+}
+
+.actions{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.action-btn{
+    background:#6F4E37;
+    color:white;
+    text-decoration:none;
+    padding:14px 24px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.action-btn:hover{
+    background:#8A6246;
+}

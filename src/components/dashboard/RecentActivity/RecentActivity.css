@@ -1,0 +1,21 @@
+.recent-activity{
+    background:white;
+    margin-top:30px;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.06);
+}
+
+.recent-activity h2{
+    color:#6F4E37;
+    margin-bottom:20px;
+}
+
+.activity-item{
+    padding:15px;
+    border-bottom:1px solid #eee;
+}
+
+.activity-item:last-child{
+    border:none;
+}

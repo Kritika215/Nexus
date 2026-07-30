@@ -1,93 +1,85 @@
 import "./Sidebar.css";
+import { NavLink } from "react-router-dom";
 
 import {
   FaHome,
   FaFileUpload,
+  FaClipboardList,
   FaChartLine,
-  FaClipboardCheck,
   FaUser,
   FaCog,
   FaSignOutAlt
 } from "react-icons/fa";
 
 function Sidebar() {
+  return (
+    <aside className="sidebar">
 
-return(
+      <div className="sidebar-logo">
+        <div className="logo-circle">N</div>
 
-<div className="sidebar">
+        <h2>NEXUS</h2>
 
-<div className="logo">
+        <p>AI Powered Digital Lending</p>
+      </div>
 
-<h2>NEXUS</h2>
+      <ul>
 
-<p>Digital Lending</p>
+        <li>
+          <NavLink to="/dashboard">
+            <FaHome />
+            <span>Dashboard</span>
+          </NavLink>
+        </li>
 
-</div>
+        <li>
+          <NavLink to="/apply-loan">
+            <FaFileUpload />
+            <span>Apply Loan</span>
+          </NavLink>
+        </li>
 
-<ul>
+        <li>
+          <NavLink to="/upload-documents">
+            <FaClipboardList />
+            <span>Documents</span>
+          </NavLink>
+        </li>
 
-<li className="active">
+        <li>
+          <NavLink to="/credit-score">
+            <FaChartLine />
+            <span>Credit Score</span>
+          </NavLink>
+        </li>
 
-<FaHome/>
+        <li>
+          <NavLink to="/profile">
+            <FaUser />
+            <span>Profile</span>
+          </NavLink>
+        </li>
 
-Dashboard
+        <li>
+          <NavLink to="/settings">
+            <FaCog />
+            <span>Settings</span>
+          </NavLink>
+        </li>
 
-</li>
+      </ul>
 
-<li>
+      <div className="logout">
 
-<FaFileUpload/>
+        <NavLink to="/">
+          <FaSignOutAlt />
+          <span>Logout</span>
+        </NavLink>
 
-Apply Loan
+      </div>
 
-</li>
-
-<li>
-
-<FaClipboardCheck/>
-
-Documents
-
-</li>
-
-<li>
-
-<FaChartLine/>
-
-Credit Score
-
-</li>
-
-<li>
-
-<FaUser/>
-
-Profile
-
-</li>
-
-<li>
-
-<FaCog/>
-
-Settings
-
-</li>
-
-<li>
-
-<FaSignOutAlt/>
-
-Logout
-
-</li>
-
-</ul>
-
-</div>
-
-)
-
+    </aside>
+  );
 }
 
 export default Sidebar;

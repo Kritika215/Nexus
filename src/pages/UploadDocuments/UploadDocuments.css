@@ -1,0 +1,173 @@
+.upload-page{
+
+    min-height:100vh;
+
+    background:#F8F3ED;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:120px 20px;
+
+}
+
+.upload-card{
+
+    width:1100px;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+.upload-card h1{
+
+    color:#6F4E37;
+
+    margin-bottom:10px;
+
+}
+
+.subtitle{
+
+    color:#777;
+
+    margin-bottom:35px;
+
+}
+
+.upload-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.upload-box{
+
+    border:2px dashed #D9C2A3;
+
+    border-radius:15px;
+
+    padding:30px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.upload-box:hover{
+
+    border-color:#6F4E37;
+
+}
+
+.upload-icon{
+
+    font-size:40px;
+
+    color:#6F4E37;
+
+    margin-bottom:15px;
+
+}
+
+.upload-box h3{
+
+    margin-bottom:15px;
+
+}
+
+.choose-btn{
+
+    display:inline-block;
+
+    background:#6F4E37;
+
+    color:white;
+
+    padding:12px 22px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    margin-bottom:15px;
+
+}
+
+.upload-box p{
+
+    color:#777;
+
+    font-size:14px;
+
+    word-break:break-word;
+
+}
+
+.upload-btn{
+
+    margin-top:40px;
+
+    width:100%;
+
+    height:55px;
+
+    background:#6F4E37;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:10px;
+
+}
+
+.upload-btn:hover{
+
+    background:#5A3F2C;
+
+}
+
+@media(max-width:768px){
+
+.upload-card{
+
+width:100%;
+
+padding:25px;
+
+}
+
+.upload-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
