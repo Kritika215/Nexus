@@ -1,0 +1,23 @@
+.dashboard-layout{
+
+display:flex;
+
+background:#F8F3ED;
+
+min-height:100vh;
+
+}
+
+.main-content{
+
+margin-left:260px;
+
+width:calc(100% - 260px);
+
+}
+
+.page-content{
+
+padding:40px;
+
+}

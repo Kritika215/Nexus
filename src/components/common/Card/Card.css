@@ -1,0 +1,17 @@
+.card{
+
+background:var(--surface);
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:var(--shadow);
+
+transition:.3s;
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+}

@@ -1,0 +1,74 @@
+.problems{
+    padding:100px 0;
+    background:#fdf9f4;
+}
+
+.section-title{
+    text-align:center;
+    color:var(--primary);
+    margin-bottom:15px;
+}
+
+.section-subtitle{
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 60px;
+}
+
+.problem-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:25px;
+}
+
+.problem-card{
+    background:white;
+    padding:35px 25px;
+    border-radius:18px;
+    box-shadow:var(--shadow);
+    transition:.3s;
+    text-align:center;
+}
+
+.problem-card:hover{
+    transform:translateY(-10px);
+}
+
+.problem-icon{
+    width:70px;
+    height:70px;
+    margin:auto;
+    border-radius:50%;
+    background:#f2e5d5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:28px;
+    color:var(--primary);
+    margin-bottom:20px;
+}
+
+.problem-card h3{
+    margin-bottom:15px;
+    color:var(--primary);
+}
+
+.problem-card p{
+    font-size:15px;
+}
+
+@media(max-width:900px){
+
+.problem-grid{
+grid-template-columns:1fr 1fr;
+}
+
+}
+
+@media(max-width:600px){
+
+.problem-grid{
+grid-template-columns:1fr;
+}
+
+}

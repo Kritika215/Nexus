@@ -1,0 +1,227 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    height: 85px;
+
+    background: rgba(255,252,248,0.95);
+    backdrop-filter: blur(15px);
+
+    display: flex;
+    align-items: center;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,.08);
+
+    z-index: 1000;
+}
+.nav-container{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+
+    height: 100%;
+}
+.logo-circle{
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #6F4E37;
+
+    color: white;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    flex-shrink: 0;
+}
+
+.logo-text h2{
+
+    margin: 0;
+
+    padding: 0;
+
+    line-height: 1;
+
+    font-size: 24px;
+
+    color: #6F4E37;
+}
+.logo-text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 50px;
+}
+.logo-text span{
+
+    margin-top: 3px;
+
+    line-height: 1;
+
+    font-size: 12px;
+
+    color: #777;
+}
+
+
+.nav-links{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:35px;
+
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:#3c2d22;
+
+    font-weight:500;
+
+    transition:.3s;
+}
+
+.nav-links a:hover{
+
+    color:#6F4E37;
+}
+
+
+.nav-actions{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+}
+
+
+.login-link{
+
+    text-decoration:none;
+
+    color:#6F4E37;
+
+    font-weight:600;
+
+    transition:.3s;
+}
+
+.login-link:hover{
+
+    color:#8B5E3C;
+}
+
+
+.start-btn{
+
+    text-decoration:none;
+
+    background:#6F4E37;
+
+    color:white;
+
+    padding:11px 24px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    box-shadow:0 8px 20px rgba(111,78,55,.25);
+}
+
+.start-btn:hover{
+
+    background:#5A3F2C;
+
+    transform:translateY(-2px);
+}
+
+
+.theme-btn{
+
+    width:44px;
+
+    height:44px;
+
+    border:none;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    background:#6F4E37;
+
+    color:white;
+
+    font-size:16px;
+
+    transition:.3s;
+}
+
+.theme-btn:hover{
+
+    background:#5A3F2C;
+
+    transform:rotate(20deg);
+}
+
+
+@media(max-width:992px){
+
+.nav-links{
+
+display:none;
+
+}
+
+.logo-text span{
+
+display:none;
+
+}
+
+.start-btn{
+
+padding:10px 18px;
+
+}
+
+}

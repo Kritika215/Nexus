@@ -1,0 +1,14 @@
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:white;
+    padding:20px 30px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.user{
+    color:#6F4E37;
+    font-weight:600;
+}

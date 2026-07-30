@@ -1,0 +1,29 @@
+
+.dashboard{
+    display:flex;
+    min-height:100vh;
+    background:#F8F3ED;
+}
+
+.dashboard-content{
+
+    flex:1;
+    padding:30px;
+    margin-left:260px;
+}
+.cards-row{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+    margin-top:30px;
+}
+
+@media(max-width:1000px){
+
+.cards-row{
+
+grid-template-columns:1fr;
+
+}
+
+}

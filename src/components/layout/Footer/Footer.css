@@ -1,0 +1,22 @@
+footer{
+
+background:var(--primary);
+
+padding:50px 0;
+
+color:white;
+
+text-align:center;
+
+margin-top:80px;
+}
+
+footer h2{
+
+margin-bottom:15px;
+}
+
+footer p{
+
+color:#eee;
+}

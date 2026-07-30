@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+  background: #f8f3ed;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+:root {
+  --primary: #6f4e37;
+  --secondary: #b08968;
+  --shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
