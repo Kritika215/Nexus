@@ -1,290 +1,299 @@
-.loan-page{
+.loan-page {
 
-    min-height:100vh;
+    min-height: 100vh;
 
-    background:#F8F3ED;
+    background: #F8F3ED;
 
-    display:flex;
+    display: flex;
 
-    justify-content:center;
+    justify-content: center;
 
-    align-items:center;
+    align-items: center;
 
-    padding:120px 20px;
+    padding: 120px 20px;
 }
 
-.loan-card{
+.loan-card {
 
-    width:900px;
+    width: 900px;
 
-    background:white;
+    background: white;
 
-    border-radius:20px;
+    border-radius: 20px;
 
-    padding:40px;
+    padding: 40px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
 }
 
-.loan-card h1{
+.loan-card h1 {
 
-    color:#6F4E37;
+    color: #6F4E37;
 
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
-.subtitle{
+.subtitle {
 
-    color:#888;
+    color: #888;
 
-    margin-bottom:40px;
+    margin-bottom: 40px;
 }
 
-.form-grid{
+.form-grid {
 
-    display:grid;
+    display: grid;
 
-    grid-template-columns:1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
-    gap:25px;
+    gap: 25px;
 }
 
-.form-group{
+.form-group {
 
-    display:flex;
+    display: flex;
 
-    flex-direction:column;
+    flex-direction: column;
 }
 
-.form-group label{
+.form-group label {
 
-    margin-bottom:8px;
+    margin-bottom: 8px;
 
-    font-weight:600;
+    font-weight: 600;
 
-    color:#555;
+    color: #555;
 }
 
-.form-group input{
+.form-group input {
 
-    padding:14px;
+    padding: 14px;
 
-    border:1px solid #ddd;
+    border: 1px solid #ddd;
 
-    border-radius:10px;
+    border-radius: 10px;
 
-    font-size:15px;
+    font-size: 15px;
 }
 
-.form-group input:focus{
+.form-group input:focus {
 
-    outline:none;
+    outline: none;
 
-    border-color:#6F4E37;
+    border-color: #6F4E37;
 }
 
-.next-btn{
+.next-btn {
 
-    margin-top:35px;
+    margin-top: 35px;
 
-    background:#6F4E37;
+    background: #6F4E37;
 
-    color:white;
+    color: white;
 
-    border:none;
+    border: none;
 
-    padding:15px 30px;
+    padding: 15px 30px;
 
-    border-radius:10px;
+    border-radius: 10px;
 
-    cursor:pointer;
+    cursor: pointer;
 
-    font-size:16px;
+    font-size: 16px;
 
-    transition:.3s;
+    transition: .3s;
 }
 
-.next-btn:hover{
+.next-btn:hover {
 
-    background:#5A3F2C;
+    background: #5A3F2C;
 }
 
-.button-group{
+.button-group {
 
-    display:flex;
+    display: flex;
 
-    justify-content:space-between;
+    justify-content: space-between;
 
-    margin-top:30px;
-
-}
-
-.back-btn{
-
-    background:#ddd;
-
-    color:#333;
-
-    border:none;
-
-    padding:14px 28px;
-
-    border-radius:10px;
-
-    cursor:pointer;
-
-    font-size:16px;
+    margin-top: 30px;
 
 }
 
-.back-btn:hover{
+.back-btn {
 
-    background:#cfcfcf;
+    background: #ddd;
 
-}
+    color: #333;
 
-select{
+    border: none;
 
-    width:100%;
+    padding: 14px 28px;
 
-    padding:14px;
+    border-radius: 10px;
 
-    border:1px solid #ddd;
+    cursor: pointer;
 
-    border-radius:10px;
-
-    font-size:15px;
-
-    outline:none;
+    font-size: 16px;
 
 }
 
-.review-title{
+.back-btn:hover {
 
-    margin-bottom:25px;
-
-    color:#6F4E37;
+    background: #cfcfcf;
 
 }
 
-.review-box{
+select {
 
-    background:#FFF9F4;
+    width: 100%;
 
-    border:1px solid #E8D8C8;
+    padding: 14px;
 
-    border-radius:15px;
+    border: 1px solid #ddd;
 
-    padding:25px;
+    border-radius: 10px;
+
+    font-size: 15px;
+
+    outline: none;
+
+}
+
+.review-title {
+
+    margin-bottom: 25px;
+
+    color: #6F4E37;
 
 }
 
-.review-box p{
+.review-box {
 
-    margin:18px 0;
+    background: #FFF9F4;
 
-    font-size:18px;
+    border: 1px solid #E8D8C8;
+
+    border-radius: 15px;
+
+    padding: 25px;
 
 }
+
+.review-box p {
+
+    margin: 18px 0;
+
+    font-size: 18px;
+
+}
+
 /* Review Page */
 
-.review-title{
-    color:#6F4E37;
-    margin-bottom:20px;
+.review-title {
+    color: #6F4E37;
+    margin-bottom: 20px;
 }
 
-.review-box{
-    background:#FFF9F4;
-    border:1px solid #E8D8C8;
-    border-radius:15px;
-    padding:25px;
-    margin-bottom:30px;
+.review-box {
+    background: #FFF9F4;
+    border: 1px solid #E8D8C8;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
 }
 
-.review-box p{
-    margin:15px 0;
-    font-size:17px;
-    color:#444;
+.review-box p {
+    margin: 15px 0;
+    font-size: 17px;
+    color: #444;
 }
 
 /* Buttons */
 
-.button-group{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-top:30px;
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
 
 .back-btn,
-.next-btn{
-    min-width:150px;
-    height:50px;
-    font-size:16px;
-    font-weight:600;
-    border-radius:10px;
+.next-btn {
+    min-width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
 }
 
-.back-btn{
-    background:#E5E5E5;
-    color:#333;
-    border:none;
-    cursor:pointer;
-    transition:.3s;
+.back-btn {
+    background: #E5E5E5;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
 }
 
-.back-btn:hover{
-    background:#D2D2D2;
+.back-btn:hover {
+    background: #D2D2D2;
 }
 
-.next-btn{
-    background:#6F4E37;
-    color:#fff;
-    border:none;
-    cursor:pointer;
-    transition:.3s;
+.next-btn {
+    background: #6F4E37;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
 }
 
-.next-btn:hover{
-    background:#5A3F2C;
+.next-btn:hover {
+    background: #5A3F2C;
 }
 
 /* Select */
 
-.form-group select{
-    width:100%;
-    padding:14px;
-    border:1px solid #ddd;
-    border-radius:10px;
-    font-size:15px;
-    outline:none;
-    background:white;
+.form-group select {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    background: white;
 }
 
-.form-group select:focus{
-    border-color:#6F4E37;
+.form-group select:focus {
+    border-color: #6F4E37;
 }
 
 /* Responsive */
 
-@media(max-width:768px){
+@media(max-width:768px) {
 
-    .loan-card{
-        width:100%;
-        padding:25px;
+    .loan-card {
+        width: 100%;
+        padding: 25px;
     }
 
-    .form-grid{
-        grid-template-columns:1fr;
+    .form-grid {
+        grid-template-columns: 1fr;
     }
 
-    .button-group{
-        flex-direction:column;
-        gap:15px;
+    .button-group {
+        flex-direction: column;
+        gap: 15px;
     }
 
     .back-btn,
-    .next-btn{
-        width:100%;
+    .next-btn {
+        width: 100%;
     }
+}
+
+
+.error-message {
+    color: #dc2626;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
